@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color: aqua;
+    background-color: #000000;
     box-sizing: border-box;
     color: #FFF;
 
@@ -15,4 +15,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+body,
+button,
+input {
+    font-family: 'Roboto', sans-serif;
 }
