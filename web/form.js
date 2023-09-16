@@ -2,15 +2,16 @@ import { server } from "./server.js"
 
 const form = document.querySelector("#form")
 const input = document.querySelector("#url")
-const contente = document.querySelector("#content")
+const content = document.querySelector("#content")
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault()
+  content.classList.add("placeholder")
 
   const videoURL = input.value
 
   if (!videoURL.includes("shorts")) {
-    return (contente.textContent = "Esse vídeo não parece ser um short.")
+    return (content.textContent = "Esse vídeo não parece ser um short.")
   }
 
   const [_, params] = videoURL.split("/shorts/")
@@ -20,5 +21,12 @@ form.addEventListener("submit", async (event) => {
 
   const transcription = await server.get("/summary/" + videoID)
 
-  content.textContent = trsnacription.data.result
+  content.textContent = "Realizando o resumo..."
+
+  const summary = await server.post("/summary", {
+    text: transcription.data.result,
+  })
+
+  content.textContent = summary.data.result
+  content.classList.remove("placeholder")
 })

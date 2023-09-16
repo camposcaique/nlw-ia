@@ -2,7 +2,7 @@ import ytdl from "ytdl-core"
 import fs from "fs"
 
 export const download = (videoId) =>
-  new Promise((resolve, rejects) => {
+  new Promise((resolve, reject) => {
     const videoURL = "https://www.youtube.com/shorts/" + videoId
     console.log("Realizando o download do vídeo:", videoId)
 
