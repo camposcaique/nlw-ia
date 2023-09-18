@@ -1,6 +1,6 @@
 # NLW RocketSeat IA
 
-![preview](./images/pokedex-print.png)
+![preview](././localhost_5173__ (3).png)
 
 >Programa de IA interativa utilizando HTML, CSS e JAVASCRIPT.
 >Escolha um shorts, e a ferramenta irá transcrever o áudio para você!
