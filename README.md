@@ -13,7 +13,7 @@
 - HTML
 - CSS
 - Git e Github
-- -Node.js
+- Node.js
 
 ## 💓 Contato
 
