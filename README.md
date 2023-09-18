@@ -5,7 +5,6 @@
 > Programa de IA interativa utilizando HTML, CSS e JAVASCRIPT.
 > Escolha um shorts, e a ferramenta irá transcrever o áudio para você!
 
-[Clique aqui para acessar o projeto](https://camposcaique.github.io/pokedex_project)
 
 ## 🔨 Tecnologias
 
