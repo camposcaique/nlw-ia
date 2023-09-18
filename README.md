@@ -3,6 +3,7 @@
 ![preview](/localhost.png)
 
 > Programa de IA interativa utilizando HTML, CSS e JAVASCRIPT.
+> <br>
 > Escolha um shorts, e a ferramenta irá transcrever o áudio para você!
 
 
