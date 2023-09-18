@@ -1,6 +1,6 @@
 # NLW RocketSeat IA
 
-![preview](<./localhost_5173__%20(3).png>)
+![preview](/localhost.png)
 
 > Programa de IA interativa utilizando HTML, CSS e JAVASCRIPT.
 > Escolha um shorts, e a ferramenta irá transcrever o áudio para você!
